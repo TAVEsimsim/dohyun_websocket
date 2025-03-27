@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+# dohyun_websocket
+[웹소켓 STOMP 채팅 서비스] 강의 학습 내용
+=======
 # chat-front
 
 ## Project setup
@@ -22,3 +26,4 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+>>>>>>> main
