@@ -6,11 +6,13 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 @Data
-@NoArgsConstructor
 @AllArgsConstructor
+@NoArgsConstructor
 @Builder
-public class ChatMessageDto {
+public class MyChatListResDto {
     private Long roomId;
-    private String message;
-    private String senderEmail;
+    private String roomName;
+    private String isGroupChat;
+    private Long unReadCount;
+
 }

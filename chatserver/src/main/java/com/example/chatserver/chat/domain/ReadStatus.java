@@ -35,6 +35,10 @@ public class ReadStatus extends BaseTimeEntity {
     //boolean은 기본값이 false여서 기본값 설정 안해도 됨
     @Column(nullable = false)
     private Boolean isRead;
+
+    public void updateIsRead(Boolean isRead) {
+        this.isRead = isRead;
+    }
 }
 
 
